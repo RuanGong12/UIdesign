@@ -143,10 +143,11 @@ body {
 .edit-button {
     position: absolute;
     top: 10%;
-    right: 35%;
+    right: 30%;
     width: 15px;
     height: 15px;
-    background: #37c6c0;
+    background: url(../resource/modify_info.png);
+    background-size: 100% 100%;
 }
 
 .user-function-card {
