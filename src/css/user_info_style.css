@@ -1,0 +1,171 @@
+/*
+ * @Author: double7 
+ * @Date: 2018-12-11 11:59:16 
+ * @Last Modified by: double7
+ * @Last Modified time: 2018-12-11 14:21:31
+ */
+
+ 
+html {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+body {
+    text-align: left;
+    width: 100%;
+    overflow: hidden;
+    background: #f7f7f7;
+    font-family: "PingFang SC", 微软雅黑, "Microsoft YaHei", Helvetica, "Helvetica Neue", Tahoma, Arial, sans-serif;
+}
+
+.top-nav {
+    height: 48px;
+    width: 100%;
+    background: #fff;
+    /* background: #fff; */
+    box-shadow: 0 0 10px 1px rgba(7,17,27,.1);
+    position: fixed;
+    top: 0;
+    z-index: 10000;
+}
+
+.top-nav-title {
+    width: 100%;
+    text-align: center;
+    line-height: 48px;
+    font-size: 1.5em;
+    margin: auto auto;
+    color: #111;
+}
+
+.search-icon {
+    width: 30px;
+    height: 28px;
+    background: url(../resource/search_icon1.PNG);
+    background-size: 100% 100%;
+    position: absolute;
+    top: 11px;
+    right: 35px;
+}
+
+.icon-back {
+    position: absolute;
+    top: 8px;
+    left: 10px;
+    width: 32px;
+    height: 32px;
+    background: url(../resource/back.png);
+    background-size: contain;
+}
+
+
+.top-menu {
+    height: 48px;
+    width: 100%;
+    background: #fff;
+    position: fixed;
+    top: 48px;
+    z-index: 9999;
+}
+
+.top-menu ul {
+    margin: auto auto;
+    width: 40%;
+    text-align: center;
+}
+
+.top-menu li:nth-child(2)::before {
+    /* display: none; */
+    display: block;
+    content: " ";
+    width: 2rem;
+    height: 0.15rem;
+    background: #FF2D50;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    margin-left: -0.9rem;
+}
+
+.top-menu li:nth-child(2) {
+    color: #FF2D50;
+}
+
+.top-menu li {
+    position: relative;
+    display: inline-block;
+    height: 48px;
+    width: 48%;
+    line-height: 48px;
+    font-size: 1em;  
+}
+
+.user-head {
+    position: relative;
+    width: 10rem;
+    height: 10rem;
+    margin: 128px auto 18px auto;
+}
+
+.user-head-img {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+    background: url(../resource/user_head_img.png);
+    background-size: 100% 100%;
+}
+
+.user-head-border {
+    position: absolute;
+    width: 93%;
+    height: 93%;
+    top: 2.30%;
+    left: 2.42%;
+    border: #999 solid 2px;
+    border-radius: 50%;
+}
+
+.user-name {
+    position: relative;
+    margin: auto auto;
+    text-align: center;
+    font-size: 1.3em;
+}
+
+.user-name * {
+    display: inline-block;
+}
+
+.edit-button {
+    position: absolute;
+    top: 10%;
+    right: 35%;
+    width: 15px;
+    height: 15px;
+    background: #37c6c0;
+}
+
+.user-function-card {
+    margin-top: 30px;
+    background: #fff;
+    border-top: #cccccc solid 1px;
+    border-bottom: #cccccc solid 1px;
+}
+
+.user-function {
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+}
+
+.user-function-card hr {
+    width: 90%;
+    margin: auto auto;
+    background: #cccccc;
+    border: none;
+    height: 1px;
+}

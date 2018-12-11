@@ -2,7 +2,7 @@
  * @Author: double7 
  * @Date: 2018-12-11 11:20:04 
  * @Last Modified by: double7
- * @Last Modified time: 2018-12-11 11:35:35
+ * @Last Modified time: 2018-12-11 14:24:03
  */
 
 
@@ -48,15 +48,12 @@ body {
     height: 48px;
     width: 100%;
     background: #fff;
+    /* background: #fff; */
     box-shadow: 0 0 10px 1px rgba(7,17,27,.1);
     position: fixed;
     top: 0;
     z-index: 10000;
 }
-
-/* .top-nav div {
-    display: inline-block;
-} */
 
 .top-nav-title {
     width: 100%;
@@ -111,7 +108,7 @@ body {
 .search-icon {
     width: 30px;
     height: 28px;
-    background: url(../resource/search_icon.PNG);
+    background: url(../resource/search_icon1.PNG);
     background-size: 100% 100%;
     position: absolute;
     top: 11px;
@@ -157,6 +154,7 @@ body {
     height: 5vh;
     widows: 100%;
     text-align: center;
+    color: #111;
 }
 
 .pannel_title::before {
